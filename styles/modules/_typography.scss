@@ -1,0 +1,40 @@
+$headingOne: 1.35rem;
+$headingTwo: 1.25rem;
+$headingThree: 1.125rem;
+$headingFour: 1.0625rem;
+$headingFive: 1rem;
+$headingSix: 0.95rem;
+
+$bodyTextSize:  0.9rem;
+$bodyTextColor: #333;
+
+body {
+  font-size: $bodyTextSize;
+  line-height: 1.25;
+  color: $bodyTextColor;
+}
+
+h1 {
+  font-size: $headingOne;
+  text-align: center;
+}
+
+h2 {
+  font-size: $headingTwo;
+}
+
+h3 {
+  font-size: $headingThree;
+}
+
+h4 {
+  font-size: $headingFour;
+}
+
+h5 {
+  font-size: $headingFive;
+}
+
+h6 {
+  font-size: $headingSix;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "nextjs-jwt",
+  "version": "0.1.0",
+  "description": "JWT authentication with secure cookies",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Adam Colpitts",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.18.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "next": "^8.1.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
